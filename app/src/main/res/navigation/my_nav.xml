@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/FirstPage">
+    <fragment
+        android:id="@+id/FirstPage"
+        android:name="com.example.turgid.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/first_page" />
+    <fragment
+        android:id="@+id/SecondPage"
+        android:name="com.example.turgid.SecondBlank"
+        android:label="fragment_second_blank"
+        tools:layout="@layout/second_page" />
+    <fragment
+        android:id="@+id/ThirdPage"
+        android:name="com.example.turgid.ThirdPage"
+        android:label="fragment_third_page"
+        tools:layout="@layout/third_page" />
+</navigation>

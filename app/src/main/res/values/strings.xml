@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">приложение тур-гида</string>
+    <string name="start">0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview">TextView</string>
+    <string name="first_page">Главная</string>
+    <string name="second_page">Места</string>
+    <string name="third_page">Настройки</string>
+</resources>
