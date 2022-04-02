@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/homeback"
     tools:context=".MainActivity">
 
 
@@ -20,7 +19,7 @@
         app:layout_constraintVertical_bias="1.0"
         app:menu="@menu/bottom" />
 
-    <fragment
+    <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="409dp"
@@ -31,5 +30,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/my_nav" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

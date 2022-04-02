@@ -7,4 +7,12 @@
     <string name="first_page">Главная</string>
     <string name="second_page">Места</string>
     <string name="third_page">Настройки</string>
+    <string-array name="Settings">
+        <item name="setting">item2</item>
+        <item name="setting">item3</item>
+        <item name="setting">item4</item>
+        <item name="setting">item5</item>
+        <item name="setting">item6</item>
+    </string-array>
+
 </resources>
